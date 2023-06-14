@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>ShopByHorror :: Candles</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="spooky.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">ShopByHorror</a></h1>
+                <h2 id="pagename">Candles and lanters</h2>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                            <li class="dropdown dropbtn"> <a href="decorations.html" class="fa fa-caret-down">Decorations</a>
+                                <div class="dropdown-content">
+                                    <a href="indoor_dec.html">Indoor decor</a>
+                                    <a href="outdoor_dec.html">Outdoor decor</a>
+                              </div>
+                            </li>
+                        <li><a href="pumpkins.html" id="pumpkins">Pumpkins</a> </li>
+                        <li><a href="Costumes.html">Costumes</a> </li>
+                        <li><a href="sale.html">Sales</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <!--The side navigation-->
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="Costumes.html" class="bold">Costumes</a>
+                <a href="mens.html">Mens costumes</a>
+                <a href="womens.html">Womens costumes</a>
+                <a href="indoor_dec.html" class="bold">Indoor decorations</a>
+                <a href="candles.html">Candles</a>
+                <a href="posters.html">Posters and paintings</a>
+                <a href="funkopops.html">Funkopops</a>
+                <a href="outdoor_dec.html" class="bold">Outdoor decorations</a>
+                <a href="tombstones.html">Skeletons and tombstones</a>
+                <a href="pumpkins.html">Pumpkins</a>
+              </div>
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>  
+                </div>
+                <p class="pageInfo"><a href="index.html">Home</a> // Candles</p>
+                 <!--The gallery for my items-->
+                 <div class="coreGallery">
+                    <div class="coreItems" id="fst">
+                        <a href="candles.html"><img src="images/candles/candle_bookcropped.jpg" width="215" height="190" alt="Lit white candle beside book"></a>
+                        <p>White candle</p>
+                    <div class="price"> $ 9.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/candleInHolder.jpg" width="215" height="190" alt="Lit candle in vintage holder beside book and glasses"></a>
+                        <p>Candle with vintage holder</p>
+                        <div class="price"> $ 12.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/keroseneLamp.jpg" width="215" height="190" alt="Black kerosene lamp"></a>
+                        <p>Kerosene lamp</p>
+                        <div class="price"> $ 24.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/marbelCandles.jpg" width="215" height="190" alt="Two lit candles which look like marble"></a>
+                        <p>Marble candles</p>
+                        <div class="price"> $ 14.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/redCandlescropped.jpg" width="215" height="190" alt="Four red candles"></a>
+                        <p>Red candles</p>
+                        <div class="price"> $ 11.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/miniCandles.jpg" width="215" height="190" alt="Handful of small white candles in glass containers"></a>
+                        <p>Mini candles</p>
+                        <div class="price"> $ 7.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="candles.html"><img src="images/candles/pinkCandle.jpg" width="215" height="190" alt="Pink candle which looks like a flower"></a>
+                        <p>Pink candle</p>
+                        <div class="price"> $ 13.99</div>
+                    </div>
+            
+                </div>
+            </main>
+            <footer>
+                <p id="logo">
+                    <span>ShopByHorror.com</span>
+                </p>
+                <a href="about.html">About us</a>
+                <br>
+                <a href="contact.html">Contact us</a>
+            </footer>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "180px";
+                document.getElementById("main").style.marginLeft = "10px";
+            }
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+    </body>
+</html>

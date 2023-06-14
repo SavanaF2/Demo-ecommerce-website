@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>ShopByHorror</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="spooky.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">ShopByHorror</a></h1>
+                <h2 id="pagename">Mens costumes</h2>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                            <li class="dropdown dropbtn"> <a href="decorations.html" class="fa fa-caret-down">Decorations</a>
+                                <div class="dropdown-content">
+                                    <a href="indoor_dec.html">Indoor decor</a>
+                                    <a href="outdoor_dec.html">Outdoor decor</a>
+                              </div>
+                            </li>
+                        <li><a href="pumpkins.html" id="pumpkins">Pumpkins</a> </li>
+                        <li><a href="Costumes.html">Costumes</a> </li>
+                        <li><a href="sale.html">Sales</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <!--The side navigation-->
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="Costumes.html" class="bold">Costumes</a>
+                <a href="mens.html">Mens costumes</a>
+                <a href="womens.html">Womens costumes</a>
+                <a href="indoor_dec.html" class="bold">Indoor decorations</a>
+                <a href="candles.html">Candles</a>
+                <a href="posters.html">Posters and paintings</a>
+                <a href="funkopops.html">Funkopops</a>
+                <a href="outdoor_dec.html" class="bold">Outdoor decorations</a>
+                <a href="tombstones.html">Skeletons and tombstones</a>
+                <a href="pumpkins.html">Pumpkins</a>
+              </div>
+                <p class="pageInfo"><a href="index.html">Home</a> // Mens Costumes</p>
+                <!--The open button for the side navigation-->
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>  
+                </div>
+                <div class="coreGallery">
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/clownMask.jpg" width="215" height="190" alt="Man wearing clown mask"></a>
+                    <p>Clown mask</p>
+                    <div class="price"> $ 19.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/lightBlueNeon.jpg" width="215" height="190" alt="man wearing white mask with blue neon"></a>
+                        <p>White blue neon mask</p>
+                        <div class="price"> $ 19.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/Mask.jpg" width="215" height="190" alt="Rustic looking gas mask"></a>
+                        <p>Borderlands mask</p>
+                        <div class="price"> $ 49.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/neon_mask.jpg" width="215" height="190" alt="Man wearing black mask with blue neon"></a>
+                        <p>Black blue neon mask</p>
+                        <div class="price"> $ 25.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/whiteMask.jpg" width="215" height="190" alt="Man wearing white mask with blood"></a>
+                        <p>Purge mask</p>
+                        <div class="price"> $ 10.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/redNeon.jpg" width="215" height="190" alt="Man wearing black mask with red neon"></a>
+                        <p>Black red neon mask</p>
+                        <div class="price"> $ 15.99</div>
+                    </div>
+                    <div class="coreItems">
+                        <a href="mens.html"><img src="images/Mens/villanCostume.jpg" width="215" height="190" alt="Man standing in busy street wearing villain costume"></a>
+                        <p>Mens villain costume</p>
+                        <div class="price"> $ 25.99</div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p id="logo">
+                    <span>ShopByHorror.com</span>
+                </p>
+                <a href="about.html">About us</a>
+                <br>
+                <a href="contact.html">Contact us</a>
+            </footer>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "180px";
+                document.getElementById("main").style.marginLeft = "10px";
+            }
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+    </body>
+</html>
