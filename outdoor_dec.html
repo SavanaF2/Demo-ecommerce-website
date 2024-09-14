@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>ShopByHorror</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="spooky.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">ShopByHorror</a></h1>
+                <h2 id="pagename">Outdoor decorations</h2>
+            </header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                        <li class="dropdown dropbtn"> <a href="decorations.html" class="fa fa-caret-down">Decorations</a>
+                            <div class="dropdown-content">
+                                <a href="indoor_dec.html">Indoor decor</a>
+                                <a href="outdoor_dec.html">Outdoor decor</a>
+                          </div>
+                        </li>
+                    <li><a href="pumpkins.html" id="pumpkins">Pumpkins</a> </li>
+                    <li><a href="Costumes.html">Costumes</a> </li>
+                    <li><a href="sale.html">Sales</a></li>
+                </ul>
+            </nav>
+            <main>
+                 <!--The side navigation-->
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="Costumes.html" class="bold">Costumes</a>
+                <a href="mens.html">Mens costumes</a>
+                <a href="womens.html">Womens costumes</a>
+                <a href="indoor_dec.html" class="bold">Indoor decorations</a>
+                <a href="candles.html">Candles</a>
+                <a href="posters.html">Posters and paintings</a>
+                <a href="funkopops.html">Funkopops</a>
+                <a href="outdoor_dec.html" class="bold">Outdoor decorations</a>
+                <a href="tombstones.html">Skeletons and tombstones</a>
+                <a href="pumpkins.html">Pumpkins</a>
+              </div>
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button>  
+            </div>
+                <p class="pageInfo"><a href="index.html">Home</a> // <a href="decorations.html">Decorations</a> // Outdoor Decorations</p>
+                <div class="gallery" id="sub">
+                    <div class="small_items" id="tombstones"></div>
+                    <div class="items">
+                        <a href="tombstones.html"><img src="images/Tombstone/greyTombstoneSet.jpg" width="225" height="200" alt="Three grey tombstones"></a>
+                        <a href="tombstones.html"><img src="images/Tombstone/skeleton-tombstone.jpg" width="225" height="200" alt="Skeleton infront of tombstones"></a>
+                        <p>Skeletons and Tombstones</p>
+                    </div>
+                    <div class="items">
+                        <a href="pumpkins.html"><img src="images/smoking_pumpkin.jpg" width="225" height="200" alt="Pumpkin with steam coming out of its eyes"></a>
+                        <a href="pumpkins.html"><img src="images/glowing_pumpkin.jpg" width="225" height="200" alt="Glowing carved pumpkin"></a>
+                        <p>Pumpkins</p>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p id="logo">
+                    <span>ShopByHorror.com</span>
+                </p>
+                <a href="about.html">About us</a>
+                <br>
+                <a href="contact.html">Contact us</a>
+            </footer>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "180px";
+                document.getElementById("main").style.marginLeft = "10px";
+            }
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+    </body>
+</html>
